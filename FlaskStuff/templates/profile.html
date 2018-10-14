@@ -13,7 +13,7 @@
     <div class="form-group d-flex justify-content-center align-items-center">
         <!--Action would be JavaScript that processes parameters -->
         <form action="/profile/" class="" method="POST">
-            <div class="row">
+            <div class="row" style="text-align: center">
                 <label for="search" style="color: white">Search Twitter</label> <br>
                 <input type="text" name="@twitter" id="search" class="form-control form-rounded"> <br>
                 <button type="submit" name="submitButton" class="btn btn-primary form-rounded">Submit</button>
@@ -27,12 +27,36 @@
     </div>
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><p align="center">Tweet 1</p><p align="center">{{ value }}</p><p align="center">{{ senti }}</p></div>
-            <div class="swiper-slide"><p align="center">Tweet 2</p><p align="center">{{ value2 }}</p><p align="center">{{ senti2 }}</p></div>
-            <div class="swiper-slide"><p align="center">Tweet 3</p><p align="center">{{ value3 }}</p><p align="center">{{ senti3 }}</p></div>
-            <div class="swiper-slide"><p align="center">Tweet 4</p><p align="center">{{ value4 }}</p><p align="center">{{ senti4 }}</p></div>
-            <div class="swiper-slide"><p align="center">Tweet 5</p><p align="center">{{ value5 }}</p><p align="center">{{ senti5 }}</p></div>
-            <div class="swiper-slide"><p align="center">Tweet 6</p><p align="center">{{ value6 }}</p><p align="center">{{ senti6 }}</p></div>
+            <div class="swiper-slide" style="background-color: white; border-radius: 20px; slideShadows: false;">
+                    <p align="center" style="font-family: Century Gothic; color: black;" class="century-gothic">Tweet 1</p>
+                    <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ value }}</p>
+                    <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ senti }}</p>
+            </div>
+            <div class="swiper-slide" style="background-color: white; border-radius: 20px; slideShadows: false;">
+                <p align="center" style="font-family: Century Gothic; color: black;" class="century-gothic">Tweet 2</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ value2 }}</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ senti2 }}</p>
+            </div>
+            <div class="swiper-slide" style="background-color: white; border-radius: 20px">
+                <p align="center" style="font-family: Century Gothic; color: black;" class="century-gothic">Tweet 3</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ value3 }}</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ senti3 }}</p>
+            </div>
+            <div class="swiper-slide" style="background-color: white; border-radius: 20px">
+                <p align="center" style="font-family: Century Gothic; color: black;" class="century-gothic">Tweet 4</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ value4 }}</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ senti4 }}</p>
+            </div>
+            <div class="swiper-slide" style="background-color: white; border-radius: 20px">
+                <p align="center" style="font-family: Century Gothic; color: black;" class="century-gothic">Tweet 5</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ value5 }}</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ senti5 }}</p>
+            </div>
+            <div class="swiper-slide" style="background-color: white; border-radius: 20px">
+                <p align="center" style="font-family: Century Gothic; color: black;" class="century-gothic">Tweet 6</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ value6 }}</p>
+                <p align="center" style="font-family: Century Gothic; color: black; font-size:14px;" class="century-gothic">{{ senti6 }}</p>
+            </div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
