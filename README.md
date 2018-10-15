@@ -35,4 +35,4 @@ Front-end: HTML, CSS, Javascript, Chart.js, Swiper.js
 ## Important Notes
 If you clone this repository, download the required packages, and run as a Python application, the default home page will be: http://127.0.0.1:5000/ This shows plain text and is NOT the project. Instead type "profile" at the end of that like so: http://127.0.0.1:5000/profile/ This will take you to our project. This is a small error that we will fix.
 
-Also, when downloading tweepy, be aware that it is NOT compatible with Python 3.7. Inside the streaming.py file, change all variables named async to _async. 
+Also, when downloading tweepy, be aware that it is NOT compatible with Python 3.7. Inside the streaming.py file in the tweepy package, change all variables named async to _async. 
