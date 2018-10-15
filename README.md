@@ -1,8 +1,8 @@
 # Sentimentally: Our 2018 Patriot Hacks Hackathon Project
+### Selected for the "Best Use of Open Source Intelligence" by the Verizon sponsor
 
 ![webp net-resizeimage 2](https://user-images.githubusercontent.com/12478151/46925824-1670ce80-cffc-11e8-9e6a-5d1f9961c810.png)
 
-### Selected for the "Best Use of Open Source Intelligence" by the Verizon sponsor
 __________________________________________________________________________________
 ## Inspiration
 The end goal was to learn something new. Something that we didn't all have experience with, even if it meant not completing a project in time.
@@ -32,5 +32,7 @@ Back-end: Python, Flask, Javascript, Twitter Seach API, textblob, tweepy
 
 Front-end: HTML, CSS, Javascript, Chart.js, Swiper.js
 
-## IMPORTANT NOTE
+## Important Notes
 If you clone this repository, download the required packages, and run as a Python application, the default home page will be: http://127.0.0.1:5000/ This shows plain text and is NOT the project. Instead type "profile" at the end of that like so: http://127.0.0.1:5000/profile/ This will take you to our project. This is a small error that we will fix.
+
+Also, when downloading tweepy, be aware that it is NOT compatible with Python 3.7.
