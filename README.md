@@ -31,3 +31,6 @@ Back-end: Python, Flask, Javascript, Twitter Seach API, textblob, tweepy
 
 
 Front-end: HTML, CSS, Javascript, Chart.js, Swiper.js
+
+## IMPORTANT NOTE
+If you clone this repository, download the required packages, and run as a Python application, the default home page will be: http://127.0.0.1:5000/ This shows plain text and is NOT the project. Instead type "profile" at the end of that like so: http://127.0.0.1:5000/profile/ This will take you to our project. This is a small error that we will fix.
